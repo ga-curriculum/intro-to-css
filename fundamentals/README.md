@@ -54,13 +54,22 @@ h1 {
 
 ## Element selectors
 
-CSS element selectors are used to target every instance of a specific HTML element on a web page.
+CSS element selectors are used to target every instance of a specific HTML element on a web page. Element selectors are the most basic type of selector. They are defined in the HTML with the element name. Element selectors are not prefixed with anything in CSS.
 
-For example, we could select all `<h1>` and `<h2>` tags like this:
+```html
+<!--A p element-->
+<p>Hello World</p>
+```
 
 ```css
-h1, h2 {
-  ...
+/* Selecting all p elements */
+p {
+    /* Setting the font color of all p elements to be red */
+   color: red;
+    /* Setting the font size to 20 pixels */
+   font-size: 20px;
+    /* Aligning the text of all p elements to be centered */
+   text-align: center;
 }
 ```
 
