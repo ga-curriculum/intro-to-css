@@ -117,7 +117,7 @@ p {
 
 ### Other ways to target padding and margin
 
-You can also target a specific side of a box's padding and margin like this:
+You can also target a specific side of a box's padding or margin like this:
 
 ```css
 p {
