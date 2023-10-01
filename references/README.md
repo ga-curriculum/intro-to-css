@@ -6,8 +6,17 @@
 
 Links from lessons:
 
-- [tktk descriptive name of link]()
+- [MDN padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+
+- [MDN border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+
+- [MDN margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
+
+
 
 - [tktk descriptive name of link]()
 
-- [tktk descriptive name of link]()
+
+## Other references
+
+- [MDN CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
