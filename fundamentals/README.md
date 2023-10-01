@@ -64,3 +64,11 @@ h1, h2 {
 }
 ```
 
+### 💪 **You Do**:
+
+In your `style.css` file:
+  - Set the margin on `<body>` element to 0 on all four sides (this is a common reset we have to do on all our pages because most browsers give a margin to the body element, which we usually do not want.)
+  - Also, give the background of the `<body>` element a color of `lightgray` and a height of `200px`.
+  - Set the margin on the `<ul>` elements to 0 on all four sides as well.
+  - Set the text color of all `<div>` elements to `blue`.
+
