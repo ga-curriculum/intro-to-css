@@ -32,3 +32,9 @@ Links from lessons:
 ## Other references
 
 - [MDN CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
+- [CSS Tricks](https://css-tricks.com/almanac/)
+
+- [CSS Cheat sheet](https://www.kobzarev.com/wp-content/uploads/cheatsheets/css/css3-cheat-sheet.pdf)
+
+- [Codrops](http://tympanus.net/codrops/css_reference)
