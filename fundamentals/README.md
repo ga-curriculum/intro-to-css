@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to learn the fundamentals of CSS syntax, comments, and element selectors to style web pages.
+**Learning objective:** By the end of this lesson, students will learn the fundamentals of CSS syntax, comments, and element selectors to style web pages.
 
 ## Syntax
 
