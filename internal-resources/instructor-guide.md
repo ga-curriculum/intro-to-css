@@ -1,8 +1,14 @@
-# [tktk Module Name] - Instructor Guide
+# Intro to CSS - Instructor Guide
 
-![Hero image](../assets/tktkhero-secondary.png)
+![Hero image](../assets/hero-secondary.png)
 
-tktk information to help instructors deliver this content should be added here. This file should not be removed, even if there is no content to place here immediately, and the following content should be retained regardless of how much content is in this file.
+## General overview
+
+If you are familiar with the legacy Intro to CSS content this version will intentionally feel much lighter.
+
+The intention here is to get students going with just enough knowledge to be dangerous and explore CSS without being overwhelmed by a multitude of options available to them.
+
+Hints at future content are dropped along the way so students have a framework of where to potentially explore next if they're curious or run into blockers.
 
 ---
 
