@@ -1,130 +1,93 @@
-# Intro to CSS - Box Model
+# Intro to CSS - Variables
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to use the CSS box model to control the size, appearance, and spacing of elements on web pages.
+**Learning objective:** By the end of this lesson, students will understand the use case and application of CSS variables.
 
-Everything in CSS is a box. The CSS box model is a way to visualize the space that each element takes up on the page. The box model is made up of 4 parts: **content, padding, border, & margin**.
+## You put variables in my CSS!
 
-![Model of the CSS Box Model](./assets/originals/box-model.png)
+CSS variables, also known as [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*), are a fantastic tool to help you write CSS that is clearer in its intent and more maintainable.
 
-## Content
-
-The content of the box, where text and images appear.
-
-## Padding
-
-The [padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) is the space between the content and the border. 
-
-Padding can be added to any side of an element, and it can be different thicknesses on different sides. Padding is useful for creating space between the content of an element and its border or margin. 
-
-Adjusting the padding will shift the content of the box, but will not impact neighboring elements.
-
-The value of the padding property can be displayed in a number of ways:
-
-When we use a single value, it gets applied to all four sides:
+Say we're working for a company that wants to use its primary brand colors repeatedly throughout a website. Without CSS variables, that may look like this:
 
 ```css
-p {
-  /* all four sides */
-  padding: 2px;
+h1 {
+  color: #7289DA;
+}
+
+a {
+  background-color: #7289DA;
+  color: #FFFFFF;
+}
+
+button {
+  background-color: #7289DA;
+  color: #FFFFFF;
+}
+
+#comments {
+  border: 2px solid #7289DA;
+}
+
+footer {
+  background-color: #7289DA;
+  color: #FFFFFF;
 }
 ```
 
-When we use two values, the first applies to the top and bottom, and the second applies to the left and right:
+In other words, lots of repetition and lots of room for errors. It would be easy for us to make a mistake when applying this color. CSS variables let us avoid being repetitive with values.
+
+Variables are inherited from ancestors. This means if you want a variable available everywhere in the `<body>` of a page, then you should define that variable in the `<body>` element. Applying it even higher, like on the `html` element, is also common. Let's define a variable:
 
 ```css
-p {
-  /* top & bottom | left & right */
-  padding: 2px 4px;
+body {
+  --brand-color: #7289DA;
 }
 ```
 
-With three values, they are applied to the top, left + right, and bottom, respectively:
+This syntax defines a variable called `--brand-color`. The `--` at the start is required. You can't use special characters other than dashes `-` in the name of a variable. Lower kebab case is generally preferred but not strictly required.
+
+The value `#7289DA` is assigned to this variable. Let's make use of it in our code from above!
 
 ```css
-p {
-  /* top | left & right | bottom */
-  padding: 2px auto 4px;
+h1 {
+  color: var(--brand-color);
+}
+
+a {
+  background-color: var(--brand-color);
+  color: #FFFFFF;
+}
+
+button {
+  background-color: var(--brand-color);
+  color: #FFFFFF;
+}
+
+#comments {
+  border: 2px solid var(--brand-color);
+}
+
+footer {
+  background-color: var(--brand-color);
+  color: #FFFFFF;
 }
 ```
 
-Lastly, four separate values affect the top, right, bottom, and left margins in that order:
+Here, we can see that to apply the variable in our CSS, we use a special function in CSS: `var()` and write the variable name inside of it.
+
+> 💡 CSS functions are independent of other languages. Check out [this MDN reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) for more.
+
+Now that we've done that, we can be sure that our brand colors are being used uniformly throughout the site, and we have autocomplete in CSS to help us not make errors. 
+
+## Incoming rebrand
+
+And it turns out we did that work just in time for an update to our brand colors - our new signature color is `#5865F2`. It's a good thing we set up our CSS variables. Now we only have to change this in one place.
 
 ```css
-p {
-  /* top | right | bottom | left */
-  padding: 2px 1px 4px 7px;
+body {
+  --brand-color: #5865F2;
 }
 ```
 
-## Border
-
-The [border](https://developer.mozilla.org/en-US/docs/Web/CSS/border) is a solid line that surrounds the padding area. Borders can be different colors, widths, and styles. Borders are useful for separating elements from each other and for adding visual interest to a web page.
-
-We can set the value of the border's width, style, and color:
-
-```css
-div {
-  border: 3px solid red;
-}
-```
-
-## Margin
-
-The [margin](https://developer.mozilla.org/en-US/docs/Web/CSS/margin) is the space between the border and other elements.
-
-Margins can be added to any side of an element, and they can be different thicknesses on different sides. Margins are useful for creating space between elements and for controlling the overall layout of a web page.
-
-
-
-We can manipulate the value of the margin property the same way as the padding property:
-
-One value
-
-```css
-p {
-  /* all four sides */
-  margin: 2px;
-}
-```
-Two
-
-```css
-p {
-  /* top & bottom | left & right */
-  margin: 2px 4px;
-}
-```
-
-Three
-
-```css
-p {
-  /* top | left & right | bottom */
-  margin: 2px auto 4px;
-}
-```
-
-Four
-
-```css
-p {
-  /* top | right | bottom | left */
-  margin: 2px 1px 4px 7px;
-}
-```
-
-### Other ways to target padding and margin
-
-You can also target a specific side of a box's padding or margin like this:
-
-```css
-p {
-  padding-bottom: 1px;
-  padding-left: 2px;
-  padding-right: 3px;
-  padding-top: 4px;
-}
-```
-
+Just like that, our site is a slightly different shade of blue/purple, and the rebranding is complete. Cheers!

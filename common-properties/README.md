@@ -10,16 +10,16 @@ CSS properties are used to control the appearance and behavior of HTML elements.
 
 [Font](https://developer.mozilla.org/en-US/docs/Web/CSS/font) properties let us control the appearance of text on a web page. Some of the most common are:
 
-- `font-family`: Specifies the font family of the text. 
-- `font-size`: Specifies size of the text.
-- `font-weight`: Specifies the weight of the text (normal, bold, light).
-- `font-style`: Specifies the style of text (italic, [oblique](https://css-tricks.com/almanac/properties/f/font-style/), or normal).
-- `text-align`: Specifies the alignment of the text (left, center, right)
+- `font-family`: Specifies the font family of the text. When multiple fonts are specified, the first available font is used.
+- `font-size`: Specifies the size of the text.
+- `font-weight`: Specifies the weight of the text (for example, light, normal, or bold).
+- `font-style`: Specifies the style of text (for example, italic or normal).
+- `text-align`: Specifies the alignment of the text (for example, left, center, right, or justified)
 
-Let's try styling our `<h3>` elements:
+Let's try styling our `<h2>` elements:
 
 ```css
-h3 {
+h2 {
   font-family: Arial, sans-serif;
   font-size: 28px;
   font-weight: bold;
@@ -28,10 +28,9 @@ h3 {
 }
 ```
 
-
 ## `color`
 
-The [`color`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) property allows us to specify the color of various elements in our HTML. 
+We've already seen how the [`color`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) property allows us to specify the color of fonts. 
 
 There are three common ways to specify color values in CSS: 
 
@@ -41,33 +40,24 @@ There are three common ways to specify color values in CSS:
 
 All three of the example values above will give us the same color! 
 
-Any of the three methods is acceptable for declaring a color value, but there are some advantages to using RGB or hex codes, namely precision and range.
+Any of the three methods is acceptable for declaring a color value, but there are advantages to using RGB or hex codes, namely precision and range.
 
-Hex codes and RGB values afford us a certain degree of precision that color names simply cannot. One of the reasons for this is that once you deviate from basic colors like red, green, blue, and so on, color names can be subjective, meaning they have a tendency to vary depending on the browser or device you're using. 
+Hex codes and RGB values give us variety and precision that color names can't. One of the reasons for this is that once you deviate from basic colors like red, green, blue, and so on, color names can be subjective. There are only [140 predefined color keywords](http://web.simmons.edu/~grovesd/comm244/notes/week3/css3-color-names) in CSS, but over 16 million possible hex/RGB color combinations exist.
 
-Another advantage is that hex codes and RGB values give us a lot more range when selecting colors. There are only [140 predefined color keywords](http://web.simmons.edu/~grovesd/comm244/notes/week3/css3-color-names) in CSS, but there are roughly 16 million possible hex code color combinations, and the same is true for RGB values.
+## 🧠 You Do
 
+Take a few minutes and visit one of the following resources and learn more about a couple of properties of your choosing:
 
+- [CSS-Tricks](https://css-tricks.com/almanac/properties/) - one of the best sites for all things CSS
+- [codrops](https://tympanus.net/codrops/css_reference/#section_css-property)
 
-## `background`
+After you've learned about that property, apply it in your code.
 
-The [`background`](https://developer.mozilla.org/en-US/docs/Web/CSS/background) property allows us to specify an element's background color, image, or gradient using a color value, image URL, or combination of the two. 
+## 🧠 You Do
 
-`background` is a **shorthand property**, meaning it can be used to set multiple background properties on one line. We can set the following properties using the `background` shorthand property (or we can use the following as standalone properties):
+Now that you've learned about some common properties, let's get some more practice.
 
-- `background-color`
-- `background-image`: Allows us to set an image as the background of an element. We can either use a hosted image URL from the web, or we can import a file into our project and use a local URL. We can also create a [linear gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient) instead of using an image.
-- `background-repeat`
-- `background-position`
-- `background-size`
-- `background-attachment`
-- `background-clip`
-- `background-origin`
-
-Let's change the background of our `<div>` elements:
-
-```css
-div {
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-}
-```
+- Set the margin on `<body>` element to 0 on all four sides. This is a common reset we do on all our pages because most browsers give a margin to the body element, which we usually do not want.
+- Also, give the background of the `<body>` element a color of `lightgray`.
+- Set the margin on the `<ul>` elements to 0 on all four sides.
+- Set the text color of all `<div>` elements to `blue`.

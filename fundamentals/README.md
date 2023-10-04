@@ -8,31 +8,46 @@
 
 The following graphic shows the basic syntax of a CSS rule:
 
-![Anatomy of a CSS rule](./assets/originals/css-syntax.png)
+![Anatomy of a CSS rule](./assets/css-syntax.png)
 
-Let’s discuss the individual components above:
+tktk Hunter, can we update this to follow the new code guidelines? Overall structure is good here; just want to apply the same kind of treatment we're giving all our other code blocks. The explanations below might need to be updated afterward to match what we've done in previous code blocks, like in the [functions content](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-functions/tree/main/fundamentals).
 
-**Selectors**: Used to target the element(s) to be styled and range from simple to incredibly complex. Multiple selectors can be specified, in which case commas separate them. 
+**Selectors:** Used to target the element(s) to be styled and range from simple to incredibly complex.
 
-**Properties**: There are a few hundred CSS properties that can be used to style the color, size, text, position, border, animation, and more, of elements.
+**Properties:** A few hundred CSS properties can be used to style elements. For example, the `color` property shown above sets the color of an element's text.
 
-**Value**: The value to apply to a property is, of course, specific to that property. For example, the CSS property, *font-family*, accepts values of names of fonts such as *Georgia*, *Helvetica*, and so on. Other properties may have numeric values and a type of unit assigned to them; for example, you might set the width of a border to *5px*.
+**Value:** The value assigned to the `color` property controls the color of an element's text. The valid values that can be applied to a property are specific to that property. For example, it can be given named values like `orange` or specific colors using a special syntax. Meanwhile, the `text-align` property can only be given a few values, such as `left`, `justify`, or `center`. A value of `orange` would be invalid.
 
-**Declaration**: The combination of a *property* and *value*, separated by a colon and ending with a semi-colon, makes a declaration.
+**Declaration:** The combination of a *property* and *value*, separated by a colon and ending with a semi-colon, makes a declaration. 
+
+**Rule:** A selector and all of its associated declarations.
+
+## Element selectors
+
+CSS element selectors target every instance of a specific HTML element, such as `<p>`, on a web page. Element selectors are the most basic type of selector. They are defined in the HTML with the element name.
+
+```html
+<!--A p element-->
+<p>Hello World</p>
+```
+
+To target that `p` element and every other `p` element on the page and make the color of their text purple, we could use this code:
+
+```css
+p {
+  color: purple;
+}
+```
 
 ## Comments
 
-Just like comments in JavaScript and HTML, we use CSS comments to explain and document our CSS code. These comments are ignored by browsers, so they don't affect the appearance of our web pages. 
-
-Comments are a great tool and can be incredibly helpful for other developers trying to understand our code, or even for ourselves when we revisit projects later. 
-
-Unlike JavaScript, there is only one type of comment in CSS, and it follows the syntax of a **JavaScript multi-line comment**.
+Like comments in other languages, comments explain and document our CSS code. Browsers ignore these comments, so they don't affect the appearance of our web pages. 
 
 CSS comments start with a forward slash and an asterisk `/*` and end with an asterisk and a forward slash `*/`. They can span multiple lines or one line, but they need both the opening and closing tags. 
 
 ```css
 p {
-  color: green; /*This is a single line comment*/
+  color: purple; /*All p elements will now have purple text!*/
 }
 
 /* 
@@ -41,43 +56,3 @@ a multi-line
 comment.
 */
 ```
-
-We can also comment out chunks of our CSS code:
-
-```css 
-/*
-h1 {
-  color: red;
-}
-*/
-```
-
-## Element selectors
-
-CSS element selectors are used to target every instance of a specific HTML element on a web page. Element selectors are the most basic type of selector. They are defined in the HTML with the element name. Element selectors are not prefixed with anything in CSS.
-
-```html
-<!--A p element-->
-<p>Hello World</p>
-```
-
-```css
-/* Selecting all p elements */
-p {
-    /* Setting the font color of all p elements to be red */
-   color: red;
-    /* Setting the font size to 20 pixels */
-   font-size: 20px;
-    /* Aligning the text of all p elements to be centered */
-   text-align: center;
-}
-```
-
-### 💪 **You Do**:
-
-In your `style.css` file:
-  - Set the margin on `<body>` element to 0 on all four sides (this is a common reset we have to do on all our pages because most browsers give a margin to the body element, which we usually do not want.)
-  - Also, give the background of the `<body>` element a color of `lightgray` and a height of `200px`.
-  - Set the margin on the `<ul>` elements to 0 on all four sides as well.
-  - Set the text color of all `<div>` elements to `blue`.
-

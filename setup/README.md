@@ -1,9 +1,11 @@
-# Setup
+# Intro to CSS - Setup
 
-Open your Terminal application and navigate to your ~/code/sei/lectures directory:
+![Hero image](./assets/hero.png)
+
+Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
 ```bash
-cd ~/code/sei/lectures
+cd ~/code/ga/lectures
 ```
 Make a new directory called `intro-to-css`, then enter this directory:
 
@@ -18,7 +20,7 @@ Create a folder called `css`:
 mkdir css
 ```
 
-Then, create an `index.html` file, as well as a `style.css` file that lives inside the `css` folder. These files will hold your work for this lecture:
+Then, create an `index.html` file, and a `style.css` file that lives inside the `css` folder. These files will hold your work for this lecture:
 
 ```bash
 touch index.html css/style.css
@@ -29,53 +31,36 @@ With the files created, open the contents of the directory in VS Code:
 code .
 ```
 
-Open the `index.html` file and add HTML boilerplate. Then make use of the `style.css` file by adding this line inside the `<head>` tag:
+Open the `index.html` file and add HTML boilerplate by typing `!` and then hitting the `Tab` key. Then make use of the `style.css` file by adding this line inside the `<head>` tag:
 
 ```html
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="./css/style.css">
 ```
 
+Replace the existing `<body>` tag with the following:
 
-Add the following HTML below the closing `</head>` tag:
 ```html
 <body>
-  <article>
-    <a href="#about">About Section</a>
-    <h1>Intro to CSS</h1>
-    <p id="about">More About CSS</p>
-    <div>This is a DIV</div>
-    <div class="crazy">This is another DIV</div>
-    <div class="crazy super-cool">
-      <p>This is a paragraph inside of the third DIV</p>
-    </div>
-    
-    <h3 id="comments-title">Comments</h3>
-    <ul class="top-level-list">
+  <h1>Intro to CSS</h1>
+  <p id="about">More About CSS</p>
+  <div>This is a DIV</div>
+  <div class="important">This is another DIV</div>
+  <div class="important super-cool">
+    <p>This is a paragraph inside of the third DIV</p>
+  </div>
+  <a href="https://github.com">Visit GitHub</a>
+
+  <div id="comments">
+    <h2>Comments</h2>
+    <ul>
       <li>Comment One</li>
       <li class="super-cool">Comment Two</li>
-      <li>
-        Comment Three
-        <ul>
-          <li>First Reply to Comment Three</li>
-          <li>Second Reply to Comment Three</li>
-        </ul>
-      </li>
     </ul>
-  </article>
+    <button>This button does nothing</button>
+  </div>
+
+  <footer>Here's a footer</footer>
 </body>
 ```
-
-Add the following code inside of `style.css`:
-
-```css
-body {
-  font-family: Helvetica, Tahoma, Verdana, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-```
-
 
 Open the `index.html` file in your browser. 

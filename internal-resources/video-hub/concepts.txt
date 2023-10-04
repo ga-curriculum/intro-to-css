@@ -1,5 +1,5 @@
-Lecture title: [tktk Module Name]
-Subtitle: microlesson-01
+Lecture title: Intro to CSS
+Subtitle: Concepts
 
 chapter-file-name
 - Chapter title: Name of chapter
