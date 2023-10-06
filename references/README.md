@@ -16,6 +16,10 @@ Links from lessons:
 - [Codrops](http://tympanus.net/codrops/css_reference)
 - [MDN - custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
 
+## Level Up references
+
+- [Wikipedia - Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie)
+
 ## Other references
 
 - [MDN - CSS basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
