@@ -14,9 +14,9 @@ tktk Hunter, can we update this to follow the new code guidelines? Overall struc
 
 **Selectors:** Used to target the element(s) to be styled and range from simple to incredibly complex.
 
-**Properties:** A few hundred CSS properties can be used to style elements. For example, the `color` property shown above sets the color of an element's text.
+**Properties:** A few hundred CSS properties can be used to style elements. For example, the `color` property shown above sets the color of an element's text. Properties are written in `lower-kebab-case`. In this convention, each word is written in lower case and separated by a dash `-`. This differs from `camelCase`, where the first word is written in lowercase, and each subsequent word is capitalized. In `camelCase`, words are not separated by any characters.
 
-**Value:** The value assigned to the `color` property controls the color of an element's text. The valid values that can be applied to a property are specific to that property. For example, it can be given named values like `orange` or specific colors using a special syntax. Meanwhile, the `text-align` property can only be given a few values, such as `left`, `justify`, or `center`. A value of `orange` would be invalid.
+**Value:** The value assigned to the `color` property controls the color of an element's text. The valid values that can be applied to a property are specific to that property. For example, it can be given named values like `orange` or specific colors using a special syntax. Meanwhile, the `text-align` property can only be given a few values, such as `left`, `justify`, or `center`. A value of `orange` would be invalid. Values are also written in `lower-kebab-case`.
 
 **Declaration:** The combination of a *property* and *value*, separated by a colon and ending with a semi-colon, makes a declaration. 
 
