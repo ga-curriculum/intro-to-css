@@ -56,3 +56,5 @@ a multi-line
 comment.
 */
 ```
+
+> 🧠 VS Code can automatically comment line(s) of code for us by pressing `⌘ Command` + `/`  in macOS or `Ctrl` + `/` in Linux and Windows.
