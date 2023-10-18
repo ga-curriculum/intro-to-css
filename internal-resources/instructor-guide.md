@@ -1,6 +1,6 @@
 # Intro to CSS - Instructor Guide
 
-![Hero image](../assets/hero-secondary.png)
+![Hero image](./assets/hero-instructor-guide.png)
 
 ## General overview
 
