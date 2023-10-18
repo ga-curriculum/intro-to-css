@@ -10,8 +10,6 @@ Every HTML element creates a box for its content. CSS can be used to modify that
 
 ![The CSS box model ](./assets/box-model.png)
 
-tktk Hunter - This graphic is pretty nice, but it would display better if it had a wider aspect ratio. Might need to break from GA colors here - it's nice that the margin, border, padding, height, and width text are all the same color in this existing graphic.
-
 Although other CSS units can be used, we'll typically measure these boxes in pixels, abbreviated in code as `px`.
 
 ## Content
@@ -24,7 +22,7 @@ The content of the box, where text and images appear.
 
 Padding can be added to any side of an element, and it can be different thicknesses on different sides. Padding is useful for creating space between the content of an element and its border or margin. 
 
-tktk Hunter, I feel like a button shown with no padding and a button shown with padding would go far here.
+![Buttons](./assets/button.png)
 
 Adjusting the padding will shift the box's content but will not impact neighboring elements.
 

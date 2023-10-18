@@ -1,6 +1,6 @@
 # Intro to CSS - Level Up - History
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-history.png)
 
 CSS (Cascading Style Sheets) is a language created by [Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie) in late 1994 while working at CERN. The proposal advocated separating the structure of a document (HTML) from its presentation (CSS). Before the introduction of CSS, developers had few options for managing the appearance of a website. This is because a user's browser choice played a substantial role.
 

@@ -44,7 +44,7 @@ Any of the three methods is acceptable for declaring a color value, but there ar
 
 Hex codes and RGB values give us variety and precision that color names can't. One of the reasons for this is that once you deviate from basic colors like red, green, blue, and so on, color names can be subjective. There are only [140 predefined color keywords](http://web.simmons.edu/~grovesd/comm244/notes/week3/css3-color-names) in CSS, but over 16 million possible hex/RGB color combinations exist.
 
-## 🧠 You Do
+![You Do](./assets/you-do.png)
 
 Take a few minutes and visit one of the following resources and learn more about a couple of properties of your choosing:
 
@@ -53,7 +53,7 @@ Take a few minutes and visit one of the following resources and learn more about
 
 After you've learned about that property, apply it in your code.
 
-## 🧠 You Do
+![You Do](./assets/you-do.png)
 
 Now that you've learned about some common properties, let's get some more practice.
 

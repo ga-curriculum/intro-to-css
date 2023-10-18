@@ -10,8 +10,6 @@ The following graphic shows the basic syntax of a CSS rule:
 
 ![Anatomy of a CSS rule](./assets/css-syntax.png)
 
-tktk Hunter, can we update this to follow the new code guidelines? Overall structure is good here; just want to apply the same kind of treatment we're giving all our other code blocks. The explanations below might need to be updated afterward to match what we've done in previous code blocks, like in the [functions content](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-javascript-functions/tree/main/fundamentals).
-
 **Selectors:** Used to target the element(s) to be styled and range from simple to incredibly complex.
 
 **Properties:** A few hundred CSS properties can be used to style elements. For example, the `color` property shown above sets the color of an element's text. Properties are written in `lower-kebab-case`. In this convention, each word is written in lower case and separated by a dash `-`. This differs from `camelCase`, where the first word is written in lowercase, and each subsequent word is capitalized. In `camelCase`, words are not separated by any characters.

@@ -1,6 +1,6 @@
 # Intro to CSS - Level Up - Shorthand Properties
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-shorthand-properties.png)
 
 We've already seen some shorthand properties like `border`, but many other shorthand properties exist and have some fun tricks for working with them.
 
