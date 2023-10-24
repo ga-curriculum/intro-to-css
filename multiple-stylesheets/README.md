@@ -1,6 +1,4 @@
-# Intro to CSS - Multiple Stylesheets
-
-![Hero image](./assets/hero.png)
+# ![Intro to CSS - Multiple Stylesheets](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to use multiple stylesheets to organize and manage CSS code.
 

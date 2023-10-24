@@ -1,6 +1,4 @@
-# Intro to CSS - References
-
-![Hero image](./assets/hero.png)
+# ![Intro to CSS - References](./assets/hero.png)
 
 ## Lesson references
 

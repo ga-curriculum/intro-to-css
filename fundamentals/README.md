@@ -1,8 +1,6 @@
-# Intro to CSS - Fundamentals
+# ![Intro to CSS - Fundamentals](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will learn the fundamentals of CSS syntax, comments, and element selectors to style web pages.
+**Learning objective:** By the end of this lesson, learners will understand and apply the basic syntax of CSS, including the use of selectors, properties, and values, to effectively style HTML elements.
 
 ## Syntax
 

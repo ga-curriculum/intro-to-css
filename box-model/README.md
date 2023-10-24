@@ -1,8 +1,6 @@
-# Intro to CSS - Box Model
+# ![Intro to CSS - Box Model](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be able to use the CSS box model to control the size, appearance, and spacing of elements on web pages.
+**Learning objective:** By the end of this lesson, learners will be able to apply the CSS box model concepts of content, padding, border, and margin to manipulate the layout and spacing of HTML elements.
 
 ## Everything is a box
 

@@ -1,32 +1,34 @@
-# Intro to CSS
+# ![Intro to CSS](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-## Module overview
+## About
 
 This module introduces basic concepts in CSS.
 
-## Content outline
+## Content
 
-| Lesson | Video Time | Video | Topics Covered |
+| Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md)                               | --- | --- | ---                                                                                          |
-| [Concepts](./concepts/README.md)                         | --- | --- | Define CSS and explain its purpose.                                                          |
-| [Fundamentals](./fundamentals/README.md)                 | --- | --- | Learn the fundamentals of CSS syntax, comments, and element selectors to style web pages.    |
-| [Box Model](./box-model/README.md)                       | --- | --- | Use the CSS box model to control the size, appearance, and spacing of elements on web pages. |
-| [Common Properties](./common-properties/README.md)       | --- | --- | Learn how to use CSS font, color, and background properties.                                 |
-| [Selectors](./selectors/README.md)                       | --- | --- | Target specific elements with CSS id, class, and combinator selectors.                       |
-| [Multiple Stylesheets](./multiple-stylesheets/README.md) | --- | --- | Use multiple stylesheets to organize and manage CSS code.                                    |
-| [Variables](./variables/README.md)                       | --- | --- | Use multiple stylesheets to organize and manage CSS code.                                    |
-|  **Total Module**                                        | --- | --- | ---                                                                                          |
+| [Setup](./setup/README.md)                               | -- | -- | Setting up the development environment                                                       |
+| [Concepts](./concepts/README.md)                         | -- | -- | Fundamentals and advantages of CSS: styling, ensuring consistency, enhancing accessibility   |
+| [Fundamentals](./fundamentals/README.md)                 | -- | -- | Basic CSS Syntax and Element Targeting: selectors, properties, values, and comments          |
+| [Box Model](./box-model/README.md)                       | -- | -- | CSS Box Model: Content, Padding, Border, and Margin                                          |
+| [Common Properties](./common-properties/README.md)       | -- | -- | Common CSS properties for text and color, font attributes and methods for specifying color values                                 |
+| [Selectors](./selectors/README.md)                       | -- | -- | Targeting specific elements with CSS element, id, class, and combinator selectors.           |
+| [Multiple Stylesheets](./multiple-stylesheets/README.md) | -- | -- | Use multiple stylesheets to organize and manage CSS code, order of precedence in stylesheet loading   |
+| [Variables](./variables/README.md)                       | -- | -- | Introduction to CSS Variables: Implementing, inheriting, and modifying custom properties for efficient styling and rebranding       |
+|  **Total Module**                                        | -- | -- |                                                                                           |
 
-## Additional content 
+## Level Up Content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| -------------- |
+|[Shorthand properties](./level-up/shorthand-properties.md) | -- | -- | CSS shorthand properties, set values for multiple sides |
+|[History of CSS](./level-up/history.md) | -- | -- | History of CSS,impact on web development and browser compatibility |
+|  **Bonus**           | -- | -- |                             |
+
+## Reference
 
 📖 [Reference Materials](./references/README.md)
-
-### 🚀 Level Up
-
-- [Shorthand properties](./level-up/shorthand-properties.md)
 
 ## Internal resources
 

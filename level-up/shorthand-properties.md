@@ -1,6 +1,6 @@
-# Intro to CSS - Level Up - Shorthand Properties
+# ![Intro to CSS - Level Up - Shorthand Properties](./assets/hero-shorthand-properties.png)
 
-![Hero image](./assets/hero-shorthand-properties.png)
+**Learning Objective:** By the end of this lesson, students should be able to utilize shorthand properties in CSS, setting multiple values to impact styling from a top-down, clockwise approach.
 
 We've already seen some shorthand properties like `border`, but many other shorthand properties exist and have some fun tricks for working with them.
 

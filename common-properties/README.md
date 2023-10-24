@@ -1,8 +1,6 @@
-# Intro to CSS - Common Properties
+# ![Intro to CSS - Common Properties](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will learn how to use CSS font, color, and background properties.
+**Learning objective:** By the end of this lesson, students will learn how to apply and manipulate common CSS properties, including font attributes and color, to control the appearance and layout of HTML elements.
 
 CSS properties are used to control the appearance and behavior of HTML elements. There are many different CSS properties, but some of the most common ones are font properties, color, and background.
 

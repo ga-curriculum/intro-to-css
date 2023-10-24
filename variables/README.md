@@ -1,8 +1,6 @@
-# Intro to CSS - Variables
+# ![Intro to CSS - Variables](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will understand the use case and application of CSS variables.
+**Learning objective:** By the end of this lesson, students will understand the application and use cases of CSS variables.
 
 ## You put variables in my CSS!
 

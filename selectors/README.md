@@ -1,8 +1,6 @@
-# Intro to CSS - Selectors
+# ![Intro to CSS - Selectors](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be able to target specific elements with CSS id, class, and combinator selectors.
+**Learning objective:** By the end of this lesson, students will be able to target specific HTML elements with CSS id, class, and combinator selectors, to style HTML elements with greater specificity.
 
 ## What selectors do
 

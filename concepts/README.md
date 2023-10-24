@@ -1,8 +1,8 @@
-# Intro to CSS - Concepts
+# 
 
-![Hero image](./assets/hero.png)
+![Intro to CSS - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to define CSS and explain its purpose.
+**Learning objective:** By the end of this lesson, learners will understand how to utilize CSS to format and style HTML documents, achieving a separation of content from presentation.
 
 ## What is CSS?
 
