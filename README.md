@@ -2,7 +2,7 @@
 
 ## About
 
-This module introduces basic concepts in CSS.
+This entry-level module on Cascading Style Sheets (CSS) is tailored for beginners with minimal or no web development experience. It offers a comprehensive foundation in CSS, focusing on its role in enhancing the visual aspects of HTML documents. Practical exercises and real-world examples are integrated throughout to reinforce key concepts and provide hands-on experience.
 
 ## Content
 
