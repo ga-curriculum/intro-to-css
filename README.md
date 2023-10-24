@@ -4,6 +4,10 @@
 
 This entry-level module on Cascading Style Sheets (CSS) is tailored for beginners with minimal or no web development experience. It offers a comprehensive foundation in CSS, focusing on its role in enhancing the visual aspects of HTML documents. Practical exercises and real-world examples are integrated throughout to reinforce key concepts and provide hands-on experience.
 
+## Prerequisites 
+
+ - Intro to HTML
+
 ## Content
 
 | Lesson | Video Time | Video | Skills |
@@ -18,7 +22,7 @@ This entry-level module on Cascading Style Sheets (CSS) is tailored for beginner
 | [Variables](./variables/README.md)                       | -- | -- | Introduction to CSS Variables: Implementing, inheriting, and modifying custom properties for efficient styling and rebranding       |
 |  **Total Module**                                        | -- | -- |                                                                                           |
 
-## Level Up Content
+## Level Up content
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| -------------- |
