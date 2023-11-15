@@ -12,13 +12,13 @@ mkdir intro-to-css
 cd intro-to-css
 ```
 
-Create a folder called `css`:
+Create a directory called `css`:
 
 ```bash
 mkdir css
 ```
 
-Then, create an `index.html` file, and a `style.css` file that lives inside the `css` folder. These files will hold your work for this lecture:
+Then, create an `index.html` file, and a `style.css` file that lives inside the `css` directory. These files will hold your work for this lecture:
 
 ```bash
 touch index.html css/style.css
