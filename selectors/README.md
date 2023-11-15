@@ -21,7 +21,7 @@ Add a `.` period followed by the class name to use a class selector.
 
 The class selector has a greater specificity than the element selector. If there are conflicts between the rule of an element selector and a class selector, the class selector will be used.
 
-## You Do
+## 🎓 You Do
 
 Target the elements with the class name `super-cool`, and give them a border that is solid, 2px wide, and pink in color.
 

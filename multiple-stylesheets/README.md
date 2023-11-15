@@ -25,7 +25,7 @@ An example of what that might look like:
   <link rel="stylesheet" href="store-page.css">
 </head>
 <body>
-  ...
+  <!-- body content -->
 </body>
 </html>
 ```
