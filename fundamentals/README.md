@@ -55,7 +55,7 @@ comment.
 
 > 🧠 VS Code can automatically comment line(s) of code for us by pressing `⌘ Command` + `/` in macOS or `Ctrl` + `/` in Linux and Windows.
 
-## Knowledge Checks
+## ❓ Review Questions
 
 - What do Selectors do?
 - What are some examples of properties?

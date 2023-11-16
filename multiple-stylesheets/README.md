@@ -38,7 +38,7 @@ Then, your other style sheets, such as `store-page.css` above, would handle styl
 
 When a browser loads multiple stylesheets for a web page, it will apply the styles in the order that the stylesheets are linked in the `<head>` section of the HTML code. This means that the styles in the later stylesheets will override the styles in the earlier stylesheets.
 
-## Knowledge Checks
+## ❓ Review Questions
 
 - Why should we use multiple style sheets?
 - True/False: if you have multiple stylesheets, each one needs its own `<link>` tag inside the `<head>` tag.

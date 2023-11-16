@@ -87,7 +87,7 @@ p {
 
 `margin-top`, `margin-right`, and so on are also available.
 
-## Knowledge Checks
+## ❓ Review Questions
 
 - In the box model, what is the outer-most property?
 - In the box model, what is the inner-most property?
