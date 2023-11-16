@@ -86,3 +86,9 @@ p {
 ```
 
 `margin-top`, `margin-right`, and so on are also available.
+
+## Knowledge Checks
+
+- In the box model, what is the outer-most property?
+- In the box model, what is the inner-most property?
+- True/False: the border surrounds both the content and the padding of an element.

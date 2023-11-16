@@ -18,3 +18,9 @@ There are many reasons to use CSS, including:
 - **Consistency:** CSS can create consistent styles across multiple pages on a single site. This creates a professional and polished look and feel.
 - **Accessibility:** CSS can make web pages more accessible by presenting information in better ways. It can also draw attention to essential elements. Use caution though; not being thoughtful when applying styles can just as easily render a site inaccessible.
 - **Animations, transitions, and more:** CSS offers more advanced features, which can elevate a site's presentation when used sparingly.
+
+## Knowledge Checks
+
+- What does CSS do?
+- What are some reasons CSS is useful?
+- Can you use CSS to create animations?

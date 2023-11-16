@@ -59,3 +59,9 @@ Now that you've learned about some common properties, let's get some more practi
 - Also, give the background of the `<body>` element a color of `lightgray`.
 - Set the margin on the `<ul>` elements to 0 on all four sides.
 - Set the text color of all `<div>` elements to `blue`.
+
+## Knowledge Checks
+
+- What does `font-weight` specify?
+- What does `text-align` specify?
+- How many different ways can you specify a color?

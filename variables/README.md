@@ -89,3 +89,9 @@ body {
 ```
 
 Just like that, our site is a slightly different shade of blue/purple, and the rebranding is complete. Cheers!
+
+## Knowledge Checks
+
+- Why might we want to use variables in CSS?
+- True/False: variables are inherited from ancestors
+- Is the `--` required for declaring a variable?
