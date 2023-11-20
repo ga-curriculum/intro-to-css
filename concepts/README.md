@@ -1,6 +1,4 @@
-# 
-
-![Intro to CSS - Concepts](./assets/hero.png)
+# ![Intro to CSS - Concepts](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, learners will know how to use CSS to style HTML pages, keeping the website's content separate from its design.
 
