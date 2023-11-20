@@ -64,9 +64,3 @@ div p { ... }
 ```
 
 Note that this rule does not target `<div>` elements, only `<p>` elements. The last item in the combinator receives the styling.
-
-## ❓ Review Questions
-
-- True/False: A single element can only have one class
-- How would you select all `<li>` elements nested anywhere within a `<ul>` tag?
-- How would you write a class selector for an element with the class `item`?
