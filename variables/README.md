@@ -76,7 +76,7 @@ Here, we can see that to apply the variable in our CSS, we use a special functio
 
 > 💡 CSS functions are independent of other languages. Check out [this MDN reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) for more.
 
-Now that we've done that, we can be sure that our brand colors are being used uniformly throughout the site, and we have autocomplete in CSS to help us not make errors. 
+Now that we've done that, we can be sure that our brand colors are being used uniformly throughout the site, and we have autocomplete in CSS to help us not make errors.
 
 ## Incoming rebrand
 

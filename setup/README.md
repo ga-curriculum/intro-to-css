@@ -5,6 +5,7 @@ Open your Terminal application and navigate to your `~/code/ga/lectures` directo
 ```bash
 cd ~/code/ga/lectures
 ```
+
 Make a new directory called `intro-to-css`, then enter this directory:
 
 ```bash
@@ -23,6 +24,7 @@ Then, create an `index.html` file, and a `style.css` file that lives inside the 
 ```bash
 touch index.html css/style.css
 ```
+
 With the files created, open the contents of the directory in VS Code:
 
 ```bash
@@ -61,4 +63,4 @@ Replace the existing `<body>` tag with the following:
 </body>
 ```
 
-Open the `index.html` file in your browser. 
+Open the `index.html` file in your browser.

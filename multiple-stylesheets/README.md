@@ -4,16 +4,16 @@
 
 ## Why use multiple stylesheets?
 
-When creating larger projects - especially ones with multiple pages - our CSS can quickly get messy if we only use one stylesheet. 
+When creating larger projects - especially ones with multiple pages - our CSS can quickly get messy if we only use one stylesheet.
 
-Instead, we can create a separate stylesheet for each page or section of our web app, allowing us to keep things tidy and easily accessible. 
+Instead, we can create a separate stylesheet for each page or section of our web app, allowing us to keep things tidy and easily accessible.
 
 The most significant benefits of using multiple stylesheets are:
 
 - **Organization**
 - **Maintenance**: Using multiple stylesheets can make it easier to maintain your CSS code. This is because you can isolate changes to specific stylesheets, making it less likely that you will accidentally break something when you make a change.
 
-To use multiple stylesheets, add a `<link>` element to the `<head>` section of your HTML code for each stylesheet that you want to use. 
+To use multiple stylesheets, add a `<link>` element to the `<head>` section of your HTML code for each stylesheet that you want to use.
 
 An example of what that might look like:
 
@@ -32,7 +32,7 @@ An example of what that might look like:
 
 You'd put styles that apply globally throughout your site in the `global.css` file - like nav bar or button styling.
 
-Then, your other style sheets, such as `store-page.css` above, would handle styling specific to certain pages. 
+Then, your other style sheets, such as `store-page.css` above, would handle styling specific to certain pages.
 
 ## Order of precedence
 

@@ -4,7 +4,6 @@ This section provides questions that can be used in various teaching formats. Th
 
 ## Concepts
 
-
 ## Fundamentals
 
 ❓ Review Questions
@@ -53,8 +52,6 @@ This section provides questions that can be used in various teaching formats. Th
 - True/False: variables are inherited from ancestors
 - Is the `--` required for declaring a variable?
 
-
 ## Shorthand properties
-
 
 ## History of CSS

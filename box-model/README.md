@@ -18,7 +18,7 @@ The content of the box, where text and images appear.
 
 [Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding) is the space between the content of an element and its border.
 
-Padding can be added to any side of an element, and it can be different thicknesses on different sides. Padding is useful for creating space between the content of an element and its border or margin. 
+Padding can be added to any side of an element, and it can be different thicknesses on different sides. Padding is useful for creating space between the content of an element and its border or margin.
 
 ![Buttons](./assets/button.png)
 

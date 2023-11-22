@@ -1,4 +1,4 @@
-# ![Intro to CSS - Release Notes](./assets/hero-release-notes.png)
+# ![Intro to CSS - Release Notes](../assets/release-notes.png)
 
 ## Version 1.0 - Updates from legacy content
 
@@ -6,13 +6,13 @@ This release modularizes the legacy Intro to CSS lecture and provides some other
 
 ### Release details
 
-**Additions**
+#### Additions
 
 - Add content on CSS custom properties (variables).
 - Add content covering comments in CSS.
 - Add You Do sections for exploring how multiple classes on the same element interact with with one another.
 
-**Changes**
+#### Changes
 
 - No longer directly depends on code from Intro to HTML content.
 - Expand on written lecture material to provide a more straightforward outline for instructors to deliver content with and to provide more thorough written documentation for students.
@@ -23,9 +23,9 @@ This release modularizes the legacy Intro to CSS lecture and provides some other
 - Update combinators content to only cover the descendant selector. Other combinators will be covered in later modules.
 - Some properties like `display` and `background` are not covered directly in the content, but have been moved to You Do sections.
 
-**Removals**
+#### Removals
 
-The following removed items will be added back in an Intermediate CSS module. 
+The following removed items will be added back in an Intermediate CSS module.
 
 - Remove box-sizing content.
 - Remove CSS framework content.

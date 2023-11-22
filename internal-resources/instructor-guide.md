@@ -1,4 +1,4 @@
-# ![Intro to CSS - Instructor Guide](./assets/hero-instructor-guide.png)
+# ![Intro to CSS - Instructor Guide](../assets/instructor-guide.png)
 
 ## General overview
 

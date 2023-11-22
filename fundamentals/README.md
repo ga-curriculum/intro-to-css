@@ -14,7 +14,7 @@ The following graphic shows the basic syntax of a CSS rule:
 
 **Value:** The value assigned to the `color` property controls the color of an element's text. The valid values that can be applied to a property are specific to that property. For example, it can be given named values like `orange` or specific colors using a special syntax. Meanwhile, the `text-align` property can only be given a few values, such as `left`, `justify`, or `center`. A value of `orange` would be invalid. Values are also written in `lower-kebab-case`.
 
-**Declaration:** The combination of a *property* and *value*, separated by a colon and ending with a semi-colon, makes a declaration. 
+**Declaration:** The combination of a *property* and *value*, separated by a colon and ending with a semi-colon, makes a declaration.
 
 **Rule:** A selector and all of its associated declarations.
 
@@ -37,9 +37,9 @@ p {
 
 ## Comments
 
-Like comments in other languages, comments explain and document our CSS code. Browsers ignore these comments, so they don't affect the appearance of our web pages. 
+Like comments in other languages, comments explain and document our CSS code. Browsers ignore these comments, so they don't affect the appearance of our web pages.
 
-CSS comments start with a forward slash and an asterisk `/*` and end with an asterisk and a forward slash `*/`. They can span multiple lines or one line, but they need both the opening and closing tags. 
+CSS comments start with a forward slash and an asterisk `/*` and end with an asterisk and a forward slash `*/`. They can span multiple lines or one line, but they need both the opening and closing tags.
 
 ```css
 p {

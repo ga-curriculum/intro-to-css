@@ -28,15 +28,15 @@ h2 {
 
 ## `color`
 
-We've already seen how the [`color`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) property allows us to specify the color of fonts. 
+We've already seen how the [`color`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) property allows us to specify the color of fonts.
 
-There are three common ways to specify color values in CSS: 
+There are three common ways to specify color values in CSS:
 
-- [hexadecimal](https://www.freecodecamp.org/news/how-hex-code-colors-work-how-to-choose-colors-without-a-color-picker/) values: `#FF0000 `
+- [hexadecimal](https://www.freecodecamp.org/news/how-hex-code-colors-work-how-to-choose-colors-without-a-color-picker/) values: `#FF0000`
 - RGB values: `rgb(255, 0, 0)`
 - Color name: `red`
 
-All three of the example values above will give us the same color! 
+All three of the example values above will give us the same color!
 
 Any of the three methods is acceptable for declaring a color value, but there are advantages to using RGB or hex codes, namely precision and range.
 

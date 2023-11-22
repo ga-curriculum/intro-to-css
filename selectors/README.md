@@ -4,7 +4,7 @@
 
 ## What selectors do
 
-We've already used element selectors like `p` and `h2` to target specific HTML elements on a web page. This allowed us to style those elements in any way we wanted. ID and class selectors let us narrow down the elements we want to select. For example, instead of selecting every `<div>` in our HTML, we can select only the `<div>` elements that have specific `id` or `class` attributes. 
+We've already used element selectors like `p` and `h2` to target specific HTML elements on a web page. This allowed us to style those elements in any way we wanted. ID and class selectors let us narrow down the elements we want to select. For example, instead of selecting every `<div>` in our HTML, we can select only the `<div>` elements that have specific `id` or `class` attributes.
 
 ## Class selector
 
@@ -25,13 +25,13 @@ The class selector has a greater specificity than the element selector. If there
 
 Target the elements with the class name `super-cool`, and give them a border that is solid, 2px wide, and pink in color.
 
-Note how the styling from both the `.important` and the `.super-cool` rules are applied to the div with both class names! What happens when you use conflicting declarations, like adding a `color: blue;` to the `.super-cool` rule? 
+Note how the styling from both the `.important` and the `.super-cool` rules are applied to the div with both class names! What happens when you use conflicting declarations, like adding a `color: blue;` to the `.super-cool` rule?
 
 Play around with the order of these rules in your CSS document, and try switching the order of the class names to `"super-cool important"` in the `div` element's `class` attribute. When is order important? When is it not? Explore these mechanics a bit on your own.
 
 ## ID selector
 
-ID selectors are the most specific type of selector. They target elements with a specific `id` attribute. 
+ID selectors are the most specific type of selector. They target elements with a specific `id` attribute.
 
 Add the `#` symbol followed by the `id` value to use an `id` selector.
 
