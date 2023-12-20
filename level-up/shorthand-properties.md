@@ -31,7 +31,7 @@ With three values, they are applied to the top, left + right, and bottom, respec
 ```css
 p {
   /* top | right and left | bottom */
-  padding: 2px auto 4px;
+  padding: 2px 1px 4px;
 }
 ```
 
