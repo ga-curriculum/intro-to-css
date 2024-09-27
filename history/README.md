@@ -1,4 +1,7 @@
-# ![Intro to CSS - Level Up - History](./assets/hero-history.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">History of CSS</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the historical evolution of CSS and how it has impacted the way websites are built and styled.
 

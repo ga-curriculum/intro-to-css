@@ -1,4 +1,7 @@
-# ![Intro to CSS - Multiple Stylesheets](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">Multiple Stylesheets</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to use multiple stylesheets to organize and manage CSS code.
 

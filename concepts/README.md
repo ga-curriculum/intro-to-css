@@ -1,4 +1,7 @@
-# ![Intro to CSS - Concepts](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">Concepts</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, learners will know how to use CSS to style HTML pages, keeping the website's content separate from its design.
 

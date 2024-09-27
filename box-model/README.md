@@ -1,4 +1,7 @@
-# ![Intro to CSS - Box Model](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">The Box Model</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, learners will be able to apply the CSS box model concepts of content, padding, border, and margin to manipulate the layout and spacing of HTML elements.
 

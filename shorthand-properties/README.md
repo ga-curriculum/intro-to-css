@@ -1,4 +1,7 @@
-# ![Intro to CSS - Level Up - Shorthand Properties](./assets/hero-shorthand-properties.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">Shorthand Properties</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students should be able to utilize shorthand properties in CSS, setting multiple values to impact styling from a top-down, clockwise approach.
 
