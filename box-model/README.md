@@ -47,7 +47,7 @@ p {
 }
 ```
 
-You can also target different sides by using shorthand properties, covered in the [Shorthand Properties Level Up](../level-up/shorthand-properties.md). The `border` property below previews this concept as well.
+You can also target different sides by using shorthand properties. The `border` property below previews this concept as well.
 
 ## Border
 
