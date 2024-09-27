@@ -33,5 +33,25 @@ courses {
       mls.history
     }
   }
+  new {
+    name = "seb"
+    microlessons {
+      // add microlessons here, in the order they should be delivered
+      mls.setup
+      mls.concepts
+      mls.fundamentals
+      mls.boxModel
+      mls.commonProperties
+      mls.selectors
+      mls.multipleStylesheets
+      mls.variables
+      (mls.shorthandProperties) {
+        type = "Level Up content"
+      }
+      (mls.history) {
+        type = "Level Up content"
+      }
+    }
+  }
 }
 
