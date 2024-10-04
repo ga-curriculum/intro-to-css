@@ -21,7 +21,7 @@ This entry-level module on Cascading Style Sheets (CSS) is tailored for beginner
 | [Variables](./variables/README.md)                       |   6 min    | [Link](https://generalassembly.wistia.com/medias/sb9otxdcf1) | Introduction to CSS Variables: Implementing, inheriting, and modifying custom properties for efficient styling and rebranding. |
 | [Shorthand properties](./shorthand-properties/README.md) |   6 min    | [Link](https://generalassembly.wistia.com/medias/8slj8e90us) | CSS shorthand properties, set values for multiple sides.                                                                       |
 | [History of CSS](./history/README.md)                    |   4 min    | [Link](https://generalassembly.wistia.com/medias/2h3my6td94) | History of CSS,impact on web development and browser compatibility.                                                            |
-| **Total content**                                        |   80 min   |                              --                              |                                                                                                                                |
+| **Total content**                                        |   80 min   |                                                              |                                                                                                                                |
 
 ## References
 
