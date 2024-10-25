@@ -17,4 +17,4 @@ Hints at future content are dropped along the way so students have a framework o
 
 We are constantly working to improve our resources for instructors and students.
 
-**Have something to contribute to this Instructor Guide?** [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md).
+**Have something to contribute to this Instructor Guide?** [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback).
