@@ -1,4 +1,7 @@
-# ![Intro to CSS - Selectors](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">Selectors</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to target specific HTML elements with CSS element, id, class, and combinator selectors, to style HTML elements with greater specificity.
 

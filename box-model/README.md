@@ -1,4 +1,7 @@
-# ![Intro to CSS - Box Model](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">The Box Model</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, learners will be able to apply the CSS box model concepts of content, padding, border, and margin to manipulate the layout and spacing of HTML elements.
 
@@ -44,7 +47,7 @@ p {
 }
 ```
 
-You can also target different sides by using shorthand properties, covered in the [Shorthand Properties Level Up](../level-up/shorthand-properties.md). The `border` property below previews this concept as well.
+You can also target different sides by using shorthand properties. The `border` property below previews this concept as well.
 
 ## Border
 

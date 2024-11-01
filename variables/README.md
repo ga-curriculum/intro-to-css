@@ -1,4 +1,7 @@
-# ![Intro to CSS - Variables](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">Variables</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will understand the application and use cases of CSS variables.
 

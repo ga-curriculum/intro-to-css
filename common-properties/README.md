@@ -1,4 +1,7 @@
-# ![Intro to CSS - Common Properties](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">Common Properties</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will learn how to apply and manipulate common CSS properties, including font attributes and color, to control the appearance and layout of HTML elements.
 

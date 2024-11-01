@@ -1,4 +1,7 @@
-# ![Intro to CSS - Fundamentals](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">Fundamentals</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, learners will understand and apply the basic syntax of CSS, including the use of selectors, properties, and values, to effectively style HTML elements.
 

@@ -1,8 +1,9 @@
-# ![Intro to CSS - References](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to CSS</span>
+  <span class="subhead">References</span>
+</h1>
 
 ## Lesson references
-
-Links from lessons:
 
 - [MDN - padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
 - [MDN - border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
@@ -13,9 +14,6 @@ Links from lessons:
 - [CSS-Tricks](https://css-tricks.com/almanac/)
 - [Codrops](http://tympanus.net/codrops/css_reference)
 - [MDN - custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*)
-
-## Level Up references
-
 - [Wikipedia - Håkon Wium Lie](https://en.wikipedia.org/wiki/H%C3%A5kon_Wium_Lie)
 
 ## Other references
