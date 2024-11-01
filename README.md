@@ -33,6 +33,11 @@ This entry-level module on Cascading Style Sheets (CSS) is tailored for beginner
 
 - Intro to HTML
 
+### Github Pages Sites
+
+- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-css/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-css/canvas-landing-pages/seb)
+
 ### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
